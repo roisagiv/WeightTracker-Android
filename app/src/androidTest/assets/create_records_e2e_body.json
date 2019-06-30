@@ -1,0 +1,39 @@
+{
+  "records": [
+    {
+      "fields": {
+        "Date": "2019-06-03T21:03:00.000Z",
+        "Weight": 80,
+        "Notes": "Test Note 1"
+      }
+    },
+    {
+      "fields": {
+        "Date": "2019-09-10T05:53:50.806Z",
+        "Weight": 81,
+        "Notes": "Test Note 2"
+      }
+    },
+    {
+      "fields": {
+        "Date": "2019-09-11T05:53:50.806Z",
+        "Weight": 83,
+        "Notes": "Test Note 3"
+      }
+    },
+    {
+      "fields": {
+        "Date": "2019-09-12T05:53:50.806Z",
+        "Weight": 84,
+        "Notes": "Test Note 4"
+      }
+    },
+    {
+      "fields": {
+        "Date": "2019-09-13T05:53:50.806Z",
+        "Weight": 85,
+        "Notes": "Test Note 5"
+      }
+    }
+  ]
+}

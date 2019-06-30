@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Weight Tracker</string>
     <string name="action_settings">Settings</string>
+
+    <string name="history_item_date_template"><annotation relativeTextSize="1.5">%1$d</annotation>\n%2$s</string>
+    <string name="history_item_weight_template">%1$.1f<annotation topAlignSuperscript="0.3">%2$s</annotation></string>
+    <string name="history_item_week_avg_template">%1$.1f<annotation topAlignSuperscript="0.3">%2$s</annotation></string>
+
+    <string name="button_save">Save</string>
+    <string name="button_loading">Loading</string>
 </resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:layout_margin="8dp"
+    android:elevation="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textview_date"
+            style="@style/Widget.WeightTracker.Primary.TextView"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_description_date"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@tools:sample/date/day_of_week" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textview_weight"
+            style="@style/TextAppearance.WeightTracker.Subtitle1"
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_description_weight"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toEndOf="@id/textview_date"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="174.44" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textview_notes"
+            style="@style/TextAppearance.WeightTracker.Caption"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/content_description_notes"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_info"
+            app:layout_constraintStart_toEndOf="@id/textview_weight"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/button_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ic_chevron_right_black_24dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

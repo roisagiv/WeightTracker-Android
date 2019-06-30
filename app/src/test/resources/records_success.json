@@ -1,0 +1,43 @@
+{
+  "records": [
+    {
+      "id": "recx6FjYsKNY5R5sF",
+      "fields": {
+        "UserName": "fsdfsdf",
+        "Date": "2019-06-03T21:03:00.000Z",
+        "Weight": 80,
+        "Week Avg": 81.5,
+        "Created time": "2019-06-29T20:58:53.000Z",
+        "Last modified time": "2019-07-06T11:02:34.000Z"
+      },
+      "createdTime": "2019-06-29T20:58:53.000Z"
+    },
+    {
+      "id": "recVzvGP6aXci0Lly",
+      "fields": {
+        "UserName": "Aenean.euismod.mauris@rutrum.net",
+        "Date": "2020-01-10T00:48:24.000Z",
+        "Weight": 101,
+        "Week Avg": 82.5,
+        "Notes": "hymenaeos. Mauris ut quam vel",
+        "Created time": "2019-07-06T11:05:54.000Z",
+        "Last modified time": "2019-07-06T11:05:54.000Z"
+      },
+      "createdTime": "2019-07-06T11:05:54.000Z"
+    },
+    {
+      "id": "rec8hgWP8HFByqnSz",
+      "fields": {
+        "UserName": "amet.diam@magnisdis.org",
+        "Date": "2018-10-27T10:52:23.000Z",
+        "Weight": 79,
+        "Week Avg": 83.5,
+        "Notes": "auctor non, feugiat",
+        "Created time": "2019-07-06T11:05:54.000Z",
+        "Last modified time": "2019-07-06T11:05:54.000Z"
+      },
+      "createdTime": "2019-07-06T11:05:54.000Z"
+    }
+  ],
+  "offset": "rec8hgWP8HFByqnSz"
+}

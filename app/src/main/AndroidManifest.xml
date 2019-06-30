@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.roisagiv.github.weighttracker" >
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.roisagiv.github.weighttracker"
+    tools:ignore="GoogleAppIndexingWarning">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:allowBackup="true"
+        android:name=".WeightTrackerApplication"
+        android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/WeightTracker.DayNight">
+
         <activity
-            android:name=".MainActivity"
+            android:name=".add.AddWeightActivity"
+            android:parentActivityName=".history.HistoryActivity" />
+
+        <activity
+            android:name=".history.HistoryActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
